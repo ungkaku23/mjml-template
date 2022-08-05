@@ -1,31 +1,52 @@
 <mjml>
   <mj-head>
-    <mj-title>Say hello to RealEstate</mj-title>
-    <mj-font name="Alice" href="https://fonts.googleapis.com/css?family=Alice"></mj-font>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,700"></mj-font>
+    <mj-title>Daily report of top findings on your account</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700"></mj-font>
     <mj-attributes>
-      <mj-all font-family="Roboto, Helvetica, Arial, sans-serif" padding="0px"></mj-all>
+      <mj-all font-family="Montserrat" padding="0px"></mj-all>
       <mj-text font-weight="400" font-size="14px" color="#000000" line-height="21px"></mj-text>
     </mj-attributes>
+    <mj-style>
+      
+    </mj-style>
   </mj-head>
   <mj-body background-color="#EAE8E5">
-    <mj-section padding="20px 0 0 0">
+    <mj-section 
+      background-color="#F6F7FB" 
+      padding="25px 100px" 
+      border-bottom="solid 6px #d0ccd6"
+    >
       <mj-column>
-        <mj-image src="http://nimus.de/share/tpl-realestate/box-head.png" alt="" align="center" border="none" padding="0px"></mj-image>
+        <mj-image 
+          src="https://github.com/neverland23/nv-assets/raw/main/altconsole-mail-logo.svg" 
+          alt="" 
+          width="160px" 
+          align="center" 
+          border="none"
+        >
+        </mj-image>
       </mj-column>
     </mj-section>
-    <mj-section padding-top="40px" background-color="#FFFFFF">
-      <mj-column width="570px">
-        <mj-text align="left" padding="0 20px" color="#1D83A8" font-size="36px" line-height="40px" font-family="Alice, Helvetica, Arial, sans-serif">Real Estate</mj-text>
-        <mj-text align="left" padding="0 20px"><strong><span style="font-size: 40px;">⚊</span></strong><br /><br /></mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#FFFFFF">
-      <mj-column width="300px">
-        <mj-text align="left" padding="0 20px 30px 20px"><strong>Aliquam lorem ante, dapibus in hasellus viverra nulla</strong> ut metus varius laoreet. Quisque rutrum lorem dellorus. Aenean imperdiet.</mj-text>
-      </mj-column>
-      <mj-column width="260px">
-        <mj-image src="http://nimus.de/share/tpl-realestate/icon-1.png" alt="" padding-bottom="30px" width="260px" align="center" border="none"></mj-image>
+    <mj-section 
+      background-color="#FFFFFF"
+      padding="30px 100px 40px 100px"
+    >
+      <mj-column>
+        <mj-text 
+          align="center"
+          font-size="13px"
+          font-weight="500"
+          padding-bottom="12px"
+        >
+          15th of June, 2022
+        </mj-text>
+        <mj-text 
+          align="center"
+          font-size="24px"
+          font-weight="700"
+        >
+          Daily report of top findings on your account
+        </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-url="http://nimus.de/share/tpl-realestate/img-1.png" vertical-align="middle" background-size="cover" padding="30px" background-repeat="no-repeat">
