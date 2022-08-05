@@ -29,14 +29,14 @@
     </mj-section>
     <mj-section 
       background-color="#FFFFFF"
-      padding="30px 100px 40px 100px"
+      padding="35px 140px 30px 140px"
     >
       <mj-column>
         <mj-text 
           align="center"
           font-size="13px"
           font-weight="500"
-          padding-bottom="12px"
+          padding-bottom="5px"
         >
           15th of June, 2022
         </mj-text>
@@ -44,6 +44,7 @@
           align="center"
           font-size="24px"
           font-weight="700"
+          line-height="28px"
         >
           Daily report of top findings on your account
         </mj-text>
